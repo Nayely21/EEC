@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ejercicioshombre">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:background="#181B5E"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/abdominalho"
+                android:layout_width="233dp"
+                android:layout_height="165dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:backgroundTint="#8452AE"
+                android:onClick="abdominalho"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/abdominaleshombre" />
+
+            <ImageButton
+                android:id="@+id/planchaho"
+                android:layout_width="233dp"
+                android:layout_height="165dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:backgroundTint="#ffd600"
+                android:onClick="planchaho"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/planchahombre" />
+
+            <ImageButton
+                android:id="@+id/sentadillaho"
+                android:layout_width="233dp"
+                android:layout_height="165dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:backgroundTint="#FFFF"
+                android:onClick="sentadillaho"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/sentadillashombre" />
+
+            <ImageButton
+                android:id="@+id/piernasho"
+                android:layout_width="233dp"
+                android:layout_height="165dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:backgroundTint="#4FEBE0"
+                android:onClick="piernasho"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/piernashombre" />
+
+            <ImageButton
+                android:id="@+id/brazosho"
+                android:layout_width="233dp"
+                android:layout_height="165dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:backgroundTint="#b2ff59"
+                android:onClick="brazosho"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/brazoshombre" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="43dp"
+        android:layout_height="732dp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:text="EJER CI CI O"
+        android:textSize="70dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/scrollView2" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="67dp"
+        android:layout_height="731dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="PRÁCT  I CO"
+        android:textColor="@color/white"
+        android:textSize="70dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/scrollView2"
+        app:layout_constraintTop_toTopOf="@+id/scrollView2" />
+</androidx.constraintlayout.widget.ConstraintLayout>

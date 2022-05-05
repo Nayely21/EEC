@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_degradado"
+    tools:context=".Mujersentadilla">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="77dp"
+                android:background="#D64F4F"
+                android:fontFamily="@font/aclonica"
+                android:gravity="center"
+                android:text="SENTADILLAS"
+                android:textColor="@color/black"
+                android:textSize="40dp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/abdominalmu"
+                android:layout_width="255dp"
+                android:layout_height="154dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:backgroundTint="#8452AE"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/sentadillasmujer" />
+            <TextView
+                android:id="@+id/concepto"
+                android:layout_width="310dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/letra1"
+                android:rotationX="0"
+                android:text="CONCEPTO:"
+                android:textAllCaps="false"
+                android:textColor="#9A0505"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/desripcion"
+                android:layout_width="344dp"
+                android:layout_height="231dp"
+                android:layout_gravity="center"
+                android:fontFamily="@font/letra1"
+                android:gravity="center"
+                android:rotationX="0"
+                android:text=" Los beneficios para la salud de hacer sentadillas incluyen fortalecer la parte inferior del cuerpo y los músculos centrales, quemar calorías, ayudarte a perder peso y reducir el riesgo de lesiones. Sin embargo, las sentadillas solo ofrecen estas ventajas si las haces de la manera adecuada."
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/accion"
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/letra1"
+                android:rotationX="0"
+                android:text="Que ejercicios realizar:"
+                android:textAllCaps="false"
+                android:textColor="#9A0505"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/desripcion2"
+                android:layout_width="349dp"
+                android:layout_height="233dp"
+                android:layout_gravity="center"
+                android:fontFamily="@font/aclonica"
+                android:rotationX="0"
+                android:text="1. Mira recto, hacia adelante: no mires hacia abajo.
+\n2. Abre el pecho y relaja los hombros.\n3. Coloca las manos frente a ti.\n \nSi ves que bajan hacia las rodillas a medida que realizas la sentadilla, significa que tu espalda se está doblando.
+"
+                android:textAllCaps="false"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/video"
+                android:layout_width="310dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/letra1"
+                android:rotationX="0"
+                android:text="Video de ayuda:"
+                android:textAllCaps="false"
+                android:textColor="#9A0505"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:id="@+id/videoAbdominales"
+                android:layout_width="337dp"
+                android:layout_height="169dp"
+                android:layout_gravity="center"
+                app:autoPlay="true"
+                app:videoId="slDrACWKOXc" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

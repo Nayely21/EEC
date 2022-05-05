@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_degradado2"
+    tools:context=".Hombreabdominal">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="77dp"
+                android:background="#1ACF1D"
+                android:fontFamily="@font/pacifico"
+                android:gravity="center"
+                android:text="ABDOMINALES"
+                android:textColor="#000000"
+                android:textSize="40dp" />
+
+            <ImageButton
+                android:id="@+id/abdominalmu"
+                android:layout_width="310dp"
+                android:layout_height="154dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:backgroundTint="#8452AE"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/abdominaleshombre" />
+
+            <TextView
+                android:id="@+id/concepto"
+                android:layout_width="310dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/letra1"
+                android:rotationX="0"
+                android:text="CONCEPTO:"
+                android:textAllCaps="false"
+                android:textColor="#FF7A22"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/desripcion"
+                android:layout_width="310dp"
+                android:layout_height="105dp"
+                android:layout_gravity="center"
+                android:fontFamily="@font/calligraffitti"
+                android:gravity="center"
+                android:rotationX="0"
+                android:text="Las abdominales son una gran forma de obtener un vientre plano de manera efectiva, y hay “miles” de variaciones."
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#B30909"
+                android:textSize="19dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/accion"
+                android:layout_width="310dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/letra1"
+                android:rotationX="0"
+                android:text="Que ejercicios realizar:"
+                android:textAllCaps="false"
+                android:textColor="#FF5304"
+                android:textSize="19dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/desripcion2"
+                android:layout_width="310dp"
+                android:layout_height="223dp"
+                android:layout_gravity="center"
+                android:fontFamily="casual"
+                android:rotationX="0"
+                android:text="Estos abdominales trabajan principalmente la zona superior del abdomen. \n* Debes colocarte boca arriba con las piernas cruzadas y dobladas, las manos van detrás de la nuca.\n* La idea es llevar las rodillas hacia el ombligo al mismo tiempo que el pecho.\n* Se deben hacer 5 series de 15 repeticiones diarias."
+                android:textAllCaps="false"
+                android:textColor="#07209A"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/video"
+                android:layout_width="310dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/letra1"
+                android:rotationX="0"
+                android:text="Video de ayuda:"
+                android:textAllCaps="false"
+                android:textColor="#9A0505"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:id="@+id/videoAbdominales"
+                android:layout_width="337dp"
+                android:layout_height="169dp"
+                android:layout_gravity="center"
+                app:autoPlay="true"
+                app:videoId="CwhxepX7aR8" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

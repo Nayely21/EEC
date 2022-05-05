@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.eec">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EEC">
+        <activity
+            android:name=".Hombrebrazos"
+            android:exported="false" />
+        <activity
+            android:name=".Mujerbrazos"
+            android:exported="false" />
+        <activity
+            android:name=".Hombrepiernas"
+            android:exported="false" />
+        <activity
+            android:name=".Mujerpiernas"
+            android:exported="false" />
+        <activity
+            android:name=".Hombresentadilla"
+            android:exported="false" />
+        <activity
+            android:name=".Mujersentadilla"
+            android:exported="false" />
+        <activity
+            android:name=".Hombreplancha"
+            android:exported="false" />
+        <activity
+            android:name=".Mujerplancha"
+            android:exported="false" />
+        <activity
+            android:name=".Hombreabdominal"
+            android:exported="false" />
+        <activity
+            android:name=".Mujerabdominales"
+            android:exported="false" />
+        <activity
+            android:name=".Ejercicioshombre"
+            android:exported="false" />
+        <activity
+            android:name=".Splashhombre"
+            android:exported="false" />
+        <activity
+            android:name=".Ejerciciosmujer"
+            android:exported="false" />
+        <activity
+            android:name=".Splashmujer"
+            android:exported="false" />
+        <activity
+            android:name=".Genero"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

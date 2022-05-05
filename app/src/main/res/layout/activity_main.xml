@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondotitulo"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/ivlogo"
+        android:layout_width="301dp"
+        android:layout_height="346dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.368"
+        app:srcCompat="@drawable/imagen1" />
+
+    <TextView
+        android:id="@+id/txtuncorrectoejercicio"
+        android:layout_width="314dp"
+        android:layout_height="76dp"
+        android:background="@color/black"
+        android:fontFamily="@font/aclonica"
+        android:gravity="center"
+        android:text="UN CORRECTO EJERCICIO"
+        android:textColor="#9c27b0"
+        android:textSize="28dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.779" />
+
+    <TextView
+        android:id="@+id/txttitulo"
+        android:layout_width="323dp"
+        android:layout_height="129dp"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="EJERCICIOS EN CASA"
+        android:textColor="@color/white"
+        android:textSize="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.625"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.021" />
+
+    <TextView
+        android:id="@+id/txtunamejorvida"
+        android:layout_width="305dp"
+        android:layout_height="36dp"
+        android:background="@color/black"
+        android:fontFamily="@font/aclonica"
+        android:gravity="center"
+        android:text="UNA MEJOR VIDA"
+        android:textColor="#9c27b0"
+        android:textSize="28dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.518"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.871" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

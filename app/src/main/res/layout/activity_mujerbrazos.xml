@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_degradado"
+    tools:context=".Mujerbrazos">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="77dp"
+                android:background="#D64F4F"
+                android:fontFamily="@font/aclonica"
+                android:gravity="center"
+                android:text="BRAZOS"
+                android:textColor="@color/black"
+                android:textSize="40dp"
+                android:textStyle="bold|italic" />
+
+            <ImageButton
+                android:id="@+id/abdominalmu"
+                android:layout_width="255dp"
+                android:layout_height="154dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:backgroundTint="#8452AE"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/brazosmujer" />
+            <TextView
+                android:id="@+id/concepto"
+                android:layout_width="310dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/letra1"
+                android:rotationX="0"
+                android:text="CONCEPTO:"
+                android:textAllCaps="false"
+                android:textColor="#9A0505"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/desripcion"
+                android:layout_width="349dp"
+                android:layout_height="201dp"
+                android:layout_gravity="center"
+                android:fontFamily="@font/letra1"
+                android:gravity="center"
+                android:rotationX="0"
+                android:text="Todo lo que se necesita para conseguir unos brazos tonificados es un poco de ejercicio.
+
+Un cambio en la dieta no es malo, pero no es absolutamente necesario para tonificar los brazos, todo depende de tu punto de partida.
+
+Y tampoco es necesario un entrenamiento físico salvaje en cintas de correr y similares. Porque el entrenamiento de brazos consiste en reafirmar los músculos, no en quemar el mayor número de calorías posible.
+
+"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/accion"
+                android:layout_width="310dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/letra1"
+                android:rotationX="0"
+                android:text="Que ejercicios realizar:"
+                android:textAllCaps="false"
+                android:textColor="#9A0505"
+                android:textSize="19dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/desripcion2"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/aclonica"
+                android:gravity="center"
+                android:rotationX="0"
+                android:text="Aquí abajo te mostramos un excelente entrenamiento de brazos de solo 10 minutos.
+Es sencillamente fenomenal"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#000000"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/video"
+                android:layout_width="310dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/letra1"
+                android:rotationX="0"
+                android:text="Video de ayuda:"
+                android:textAllCaps="false"
+                android:textColor="#9A0505"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:id="@+id/videoAbdominales"
+                android:layout_width="337dp"
+                android:layout_height="169dp"
+                android:layout_gravity="center"
+                app:autoPlay="true"
+                app:videoId="RE5yzqSXDCI" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_degradado2"
+    tools:context=".Hombreplancha">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:textColor="#000000"
+                android:background="#1ACF1D"
+                android:fontFamily="@font/pacifico"
+                android:layout_height="77dp"
+                android:gravity="center"
+                android:text="PLANCHAS"
+                android:textSize="40dp" />
+
+            <ImageButton
+                android:id="@+id/abdominalmu"
+                android:layout_width="310dp"
+                android:layout_height="154dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:backgroundTint="#8452AE"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/planchahombre" />
+            <TextView
+                android:id="@+id/concepto"
+                android:layout_width="310dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/letra1"
+                android:rotationX="0"
+                android:text="CONCEPTO:"
+                android:textAllCaps="false"
+                android:textColor="#FF7A22"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/desripcion"
+                android:layout_width="310dp"
+                android:layout_height="133dp"
+                android:layout_gravity="center"
+                android:fontFamily="@font/calligraffitti"
+                android:gravity="center"
+                android:rotationX="0"
+                android:text=" Este es el más seguro, es sencillo y da una gran definición en las abdominales. Solo necesitas una superficie plana, un poco de tiempo y valentía."
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#B30909"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/accion"
+                android:layout_width="310dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/letra1"
+                android:rotationX="0"
+                android:text="Que ejercicios realizar:"
+                android:textAllCaps="false"
+                android:textColor="#FF5304"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/desripcion2"
+                android:layout_width="310dp"
+                android:layout_height="215dp"
+                android:layout_gravity="center"
+                android:fontFamily="casual"
+                android:gravity="center"
+                android:rotationX="0"
+                android:text="1.- Coloca tus palmas en el suelo; las muñecas van alineadas a los codos, formando una línea recta.\n2.- Ponte en posición de tabla (como si fueras a realizar una flexión) \n3.- Conecta los dedos de los pies con el piso, aprieta los glúteos y alínea tu cabeza con la espalda.\n4.- Aprieta fuertemente el abdomen y respira con tranquilidad.
+"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="#07209A"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/video"
+                android:layout_width="310dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/letra1"
+                android:rotationX="0"
+                android:text="Video de ayuda:"
+                android:textAllCaps="false"
+                android:textColor="#9A0505"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:id="@+id/videoAbdominales"
+                android:layout_width="337dp"
+                android:layout_height="169dp"
+                android:layout_gravity="center"
+                app:autoPlay="true"
+                app:videoId="nknnF2-QayY" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EEC - copia/app/src/main/res/layout/activity_ejercicioshombre.xml" value="0.25" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EEC - copia/app/src/main/res/layout/activity_ejerciciosmujer.xml" value="0.25" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EEC - copia/app/src/main/res/layout/activity_genero.xml" value="0.25" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EEC - copia/app/src/main/res/layout/activity_hombreabdominal.xml" value="0.25" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EEC - copia/app/src/main/res/layout/activity_hombresentadilla.xml" value="0.25" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EEC - copia/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EEC - copia/app/src/main/res/layout/activity_splashhombre.xml" value="0.25" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EEC - copia/app/src/main/res/layout/activity_splashmujer.xml" value="0.25" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EEC/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.185" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EEC/app/src/main/res/drawable/fondo_degradado.xml" value="0.185" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EEC/app/src/main/res/drawable/fondo_degradado2.xml" value="0.185" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EEC/app/src/main/res/drawable/ic_launcher_background.xml" value="0.185" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EEC/app/src/main/res/font/aclonica.xml" value="0.28020833333333334" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EEC/app/src/main/res/layout/activity_abdominaleshombre.xml" value="0.25" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EEC/app/src/main/res/layout/activity_abdominalesmujer.xml" value="0.25" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EEC/app/src/main/res/layout/activity_ejercicioshombre.xml" value="0.264" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EEC/app/src/main/res/layout/activity_ejerciciosmujer.xml" value="0.2" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EEC/app/src/main/res/layout/activity_genero.xml" value="0.25" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EEC/app/src/main/res/layout/activity_hombreabdominal.xml" value="0.264" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EEC/app/src/main/res/layout/activity_hombrebrazos.xml" value="0.4" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EEC/app/src/main/res/layout/activity_hombrepiernas.xml" value="0.4" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EEC/app/src/main/res/layout/activity_hombreplancha.xml" value="0.4" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EEC/app/src/main/res/layout/activity_hombresentadilla.xml" value="0.4" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EEC/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EEC/app/src/main/res/layout/activity_mujerabdominal.xml" value="0.176" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EEC/app/src/main/res/layout/activity_mujerbrazos.xml" value="0.264" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EEC/app/src/main/res/layout/activity_mujerpiernas.xml" value="0.264" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EEC/app/src/main/res/layout/activity_mujerplancha.xml" value="0.264" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EEC/app/src/main/res/layout/activity_mujersentadilla.xml" value="0.2359375" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EEC/app/src/main/res/layout/activity_planchamujer.xml" value="0.25" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EEC/app/src/main/res/layout/activity_splashhombre.xml" value="0.25" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EEC/app/src/main/res/layout/activity_splashmujer.xml" value="0.25" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EEC/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2145" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EEC/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.185" />
+        <entry key="..\:/Users/USER/Music/UNIDAD12/EECC/app/src/main/res/layout/activity_mujersentadilla.xml" value="0.22826086956521738" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
